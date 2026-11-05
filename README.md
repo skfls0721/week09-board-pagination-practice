@@ -72,7 +72,7 @@ node server.js
 
 ## 실행 후 직접 확인할 항목
 
-보고서의 API·브라우저 기능 확인과 실제 캡처는 `REPORT.md` 및 `outputs/screenshots/`에 있습니다. 300ms 미만 간격 입력 테스트와 지연 응답 중 이전 요청을 취소하고 최종 결과를 반영하는 테스트를 직접 확인했습니다. `node_modules`는 Git에 올리지 않습니다.
+보고서의 API·브라우저 기능 확인과 실제 캡처는 `REPORT.md` 및 `screenshots/`에 있습니다. 300ms 미만 간격 입력 테스트와 지연 응답 중 이전 요청을 취소하고 최종 결과를 반영하는 테스트를 직접 확인했습니다. `node_modules`는 Git에 올리지 않습니다.
 
 느린 응답을 재현하려면 서버를 `SIMULATED_API_DELAY_MS=5000 node server.js`로 실행합니다. 이 값은 테스트할 때만 사용하며 기본 실행에서는 지연이 없습니다.
 
@@ -84,20 +84,20 @@ AI로 구현 수정과 보고서 초안을 작성했습니다. API 경계값·�
 
 ### 1. 검색 및 조회수순 정렬
 
-![1. 검색 및 조회수순 정렬](outputs/screenshots/01-search-sort.png)
+![1. 검색 및 조회수순 정렬](screenshots/01-search-sort.png)
 
 ### 2. 오프셋 페이지 2
 
-![2. 오프셋 페이지 2와 meta](outputs/screenshots/02-offset-page-2.png)
+![2. 오프셋 페이지 2와 meta](screenshots/02-offset-page-2.png)
 
 ### 3. 커서 검색 및 더 보기
 
-![3. 커서 검색 및 더 보기](outputs/screenshots/03-cursor-load-more.png)
+![3. 커서 검색 및 더 보기](screenshots/03-cursor-load-more.png)
 
 ### 4-1. MVCC 디바운스 요청 1회
 
-![4-1. MVCC 디바운스 요청 1회](outputs/screenshots/04-debounce-mvcc-one-request.png)
+![4-1. MVCC 디바운스 요청 1회](screenshots/04-debounce-mvcc-one-request.png)
 
 ### 4-2. 지연 응답 중 이전 요청 취소
 
-![4-2. 이전 요청 취소와 최종 요청](outputs/screenshots/05-abort-controller.png)
+![4-2. 이전 요청 취소와 최종 요청](screenshots/05-abort-controller.png)
