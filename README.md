@@ -84,20 +84,20 @@ AI로 구현 수정과 보고서 초안을 작성했습니다. API 경계값·�
 
 ### 1. 검색 및 조회수순 정렬
 
-![1. 검색 및 조회수순 정렬](screenshots/01-search-sort.png)
+![1. 검색 및 조회수순 정렬](screenshots/1.png)
 
 ### 2. 오프셋 페이지 2
 
-![2. 오프셋 페이지 2와 meta](screenshots/02-offset-page-2.png)
+![2. 오프셋 페이지 2와 meta](screenshots/2.png)
 
 ### 3. 커서 검색 및 더 보기
 
-![3. 커서 검색 및 더 보기](screenshots/03-cursor-load-more.png)
+![3. 커서 검색 및 더 보기](screenshots/3.png)
 
 ### 4-1. MVCC 디바운스 요청 1회
 
-![4-1. MVCC 디바운스 요청 1회](screenshots/04-debounce-mvcc-one-request.png)
+![4-1. MVCC 디바운스 요청 1회](screenshots/4-1.png)
 
 ### 4-2. 지연 응답 중 이전 요청 취소
 
-![4-2. 이전 요청 취소와 최종 요청](screenshots/05-abort-controller.png)
+![4-2. 이전 요청 취소와 최종 요청](screenshots/4-2.png)

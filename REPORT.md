@@ -65,23 +65,23 @@
 
 ### 1. 검색·조회수순 정렬
 
-![검색 및 조회수 정렬](screenshots/01-search-sort.png)
+![검색 및 조회수 정렬](screenshots/1.png)
 
 ### 2. 오프셋 페이지 2와 URL·meta
 
-![오프셋 2페이지](screenshots/02-offset-page-2.png)
+![오프셋 2페이지](screenshots/2.png)
 
 ### 3. 커서 검색·더 보기
 
-![커서 페이지네이션](screenshots/03-cursor-load-more.png)
+![커서 페이지네이션](screenshots/3.png)
 
 ### 4-1. 빠른 입력 후 검색 요청 1회
 
-![4-1 MVCC 디바운스 요청 1회](screenshots/04-debounce-mvcc-one-request.png)
+![4-1 MVCC 디바운스 요청 1회](screenshots/4-1.png)
 
 ### 4-2. 지연 응답 중 이전 요청 취소
 
-![요청 취소 및 최종 요청 완료](screenshots/05-abort-controller.png)
+![요청 취소 및 최종 요청 완료](screenshots/4-2.png)
 
 ## AI 활용 고지
 
