@@ -75,13 +75,9 @@
 
 ![커서 페이지네이션](outputs/screenshots/03-cursor-load-more.png)
 
-### 검색 화면 및 요청 누적 표시
-
-![검색과 요청 누적](outputs/screenshots/04-debounce-search.png)
-
 ### 4-1. 빠른 입력 후 검색 요청 1회
 
-![MVCC 디바운스 요청 1회](outputs/screenshots/06-debounce-mvcc-one-request.png)
+![4-1 MVCC 디바운스 요청 1회](outputs/screenshots/04-debounce-mvcc-one-request.png)
 
 ### 4-2. 지연 응답 중 이전 요청 취소
 
