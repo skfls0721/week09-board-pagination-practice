@@ -79,3 +79,25 @@ node server.js
 ## AI 활용
 
 AI로 구현 수정과 보고서 초안을 작성했습니다. API 경계값·정렬·검색·커서 전체 탐색과 브라우저 동작은 직접 실행해 검증했습니다. 확인한 테스트 입력 및 캡처는 `REPORT.md`에 정리했습니다.
+
+## 테스트 캡처
+
+### 1. 검색 및 조회수순 정렬
+
+![1. 검색 및 조회수순 정렬](outputs/screenshots/01-search-sort.png)
+
+### 2. 오프셋 페이지 2
+
+![2. 오프셋 페이지 2와 meta](outputs/screenshots/02-offset-page-2.png)
+
+### 3. 커서 검색 및 더 보기
+
+![3. 커서 검색 및 더 보기](outputs/screenshots/03-cursor-load-more.png)
+
+### 4-1. MVCC 디바운스 요청 1회
+
+![4-1. MVCC 디바운스 요청 1회](outputs/screenshots/04-debounce-mvcc-one-request.png)
+
+### 4-2. 지연 응답 중 이전 요청 취소
+
+![4-2. 이전 요청 취소와 최종 요청](outputs/screenshots/05-abort-controller.png)
